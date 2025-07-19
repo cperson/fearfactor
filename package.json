@@ -1,0 +1,21 @@
+{
+  "name": "ff",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "papaparse": "^5.5.3",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.15.4",
+    "parcel-reporter-static-files-copy": "^1.5.3"
+  }
+}

@@ -1,0 +1,73 @@
+.player-detail {
+  background-color: #1e1e2f;
+  color: #f0f0f0;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+  margin-top: 1rem;
+  font-family: 'Segoe UI', 'Roboto', sans-serif;
+}
+
+.player-detail h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #ff6b81;
+}
+
+.fear-factor-badge {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: #2f3542;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  margin-bottom: 1.2rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  box-shadow: inset 0 0 4px rgba(255, 107, 129, 0.5);
+}
+
+.fear-factor-badge strong {
+  color: #ffa502;
+  font-size: 1.4rem;
+}
+
+.badge-label {
+  padding: 0.3rem 0.6rem;
+  background-color: #ff4757;
+  border-radius: 16px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.stat-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem 0;
+}
+
+.stat-list li {
+  margin-bottom: 0.5rem;
+  padding: 0.4rem 0.6rem;
+  background-color: #2f3640;
+  border-radius: 6px;
+  transition: background 0.2s ease;
+}
+
+.stat-list li:hover {
+  background-color: #353b48;
+}
+
+.stat-label {
+  font-weight: 600;
+  color: #70a1ff;
+}
+
+.note {
+  font-size: 0.8rem;
+  color: #a4b0be;
+  margin-top: 1rem;
+  display: block;
+  text-align: right;
+}
